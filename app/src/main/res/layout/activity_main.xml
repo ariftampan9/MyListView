@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundlanding"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="185dp"
+        android:layout_height="236dp"
+
+        android:contentDescription="TODO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/iconrs"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="-39dp" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="451dp"
+
+        android:layout_marginTop="13dp"
+        android:background="@drawable/headertop"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-16dp" />
+
+    <TextView
+        android:id="@+id/poliklinik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:fontFamily="@font/segoe"
+        android:text="Poliklinik"
+        android:textColor="#07BDAA"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="@+id/view"
+        app:layout_constraintHorizontal_bias="0.101"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toTopOf="@+id/view"
+        app:layout_constraintVertical_bias="0.053" />
+
+    <Button
+        android:id="@+id/menu1"
+        android:layout_width="222dp"
+        android:layout_height="30dp"
+
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btnmenu"
+
+        android:text="@string/menu1"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/view"
+        app:layout_constraintHorizontal_bias="0.53"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toBottomOf="@+id/poliklinik"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/menu2"
+        android:layout_width="222dp"
+        android:layout_height="30dp"
+        android:layout_gravity="start"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btnmenu"
+
+        android:text="@string/menu2"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="@+id/view"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toBottomOf="@+id/menu1"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/menu3"
+        android:layout_width="222dp"
+        android:layout_height="30dp"
+        android:layout_gravity="start"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btnmenu"
+
+
+        android:text="@string/menu3"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="@+id/view"
+        app:layout_constraintHorizontal_bias="0.549"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toBottomOf="@+id/menu2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/menu4"
+        android:layout_width="222dp"
+        android:layout_height="30dp"
+        android:layout_gravity="start"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btnmenu"
+
+
+        android:text="@string/menu4"
+
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="@+id/view"
+        app:layout_constraintHorizontal_bias="0.549"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toBottomOf="@+id/menu3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/menu5"
+        android:layout_width="222dp"
+        android:layout_height="30dp"
+        android:layout_gravity="start"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btnmenu"
+
+
+        android:text="@string/menu5"
+
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="@+id/view"
+        app:layout_constraintHorizontal_bias="0.552"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toBottomOf="@+id/menu4"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

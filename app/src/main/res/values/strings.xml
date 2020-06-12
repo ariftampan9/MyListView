@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ListDokter</string>
+
+    <string name="view">Poliklinik</string>
+    <string name="menu1">Klink Umum</string>
+    <string name="menu2">Klink Gigi</string>
+    <string name="menu3">Klink Spesialis Mata</string>
+    <string name="menu4">Klink Spesialis THT</string>
+    <string name="menu5">Klink Spesialis Anak</string>
+    <string name="List_Dokter">List Dokter</string>
+    <string name="todo">TODO</string>
+</resources>
